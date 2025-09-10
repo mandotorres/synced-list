@@ -51,9 +51,8 @@
 		940A533C2E6F940800B40571 /* SyncedList */ = {
 			isa = PBXGroup;
 			children = (
-				940A533D2E6F940800B40571 /* SyncedListApp.swift */,
-				940A533F2E6F940800B40571 /* ContentView.swift */,
-				940A53412E6F940A00B40571 /* Assets.xcassets */,
+				940A534D2E7143E400B40571 /* Resources */,
+				940A534C2E7143B100B40571 /* App */,
 				940A53432E6F940A00B40571 /* Preview Content */,
 			);
 			path = SyncedList;
@@ -65,6 +64,23 @@
 				940A53442E6F940A00B40571 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		940A534C2E7143B100B40571 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				940A533D2E6F940800B40571 /* SyncedListApp.swift */,
+				940A533F2E6F940800B40571 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		940A534D2E7143E400B40571 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				940A53412E6F940A00B40571 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
